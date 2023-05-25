@@ -1,0 +1,53 @@
+.register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100px;
+    h2{
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+
+
+      label{
+        margin-left: 10px;
+      }
+      input{
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+      }
+
+      button{
+        width: 205px;
+        margin-left: 10px;
+        height: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+
+        .sig{
+            color: white;
+            text-decoration: none;
+            list-style: none;
+          }
+
+      }
+
+      h6{
+        font-size: 14px;
+        color: black;
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+    }
+}
